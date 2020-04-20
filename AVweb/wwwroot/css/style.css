@@ -1,0 +1,128 @@
+﻿:root {
+    --red-color: #ec5252;
+    --blue-color: #28215c;
+    --gray-color: #95afc0;
+    --black-color: #29303b;
+}
+
+body {
+    color: var(--gray);
+}
+
+.navbar {
+    color: white;
+    background-color: var(--red-color);
+}
+
+.overlap {
+    position: absolute;
+    right: 15px;
+    z-index: 100;
+    visibility: hidden;
+}
+
+#form-login-box {
+    border: solid lightgray .5px;
+    z-index: 120;
+}
+
+#btnlogin {
+    background-color: var(--red-color) !important;
+    border-color: none;
+}
+
+.hr-header {
+    height:2.5px;
+    background-color:#EC5252;
+    opacity: .9;
+    width: 60%;
+}
+
+.btn-search{
+    background-color: var(--red-color) !important;
+    color: white !important;
+    font-weight:bold !important;
+    letter-spacing: 4px;
+    
+}
+
+.card-head {
+    border-bottom: solid var(--blue-color) 1px;
+}
+
+.select-location{
+    border: solid #e0e0e0 .5px;
+}
+
+.daylist {
+    border: solid #e0e0e0 1px;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+}
+
+h3 {
+    color: var(--blue-color);
+}
+
+h6{
+    color: var(--blue-color);
+}
+
+li{
+    list-style-type: none;
+}
+
+.v-list{
+    margin: 15px 0;
+}
+
+footer{
+    color: white;
+    background-color: var(--black-color);
+}
+
+#day{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#climate {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#temperature {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#farenheitTemp {
+    font-weight: 600;
+}
+
+/*
+    colors
+*/
+.back-red {
+    background-color: var(--red-color);
+}
+.red{
+    color: var(--red-color);
+}
+.blue {
+    color: var(--blue-color);
+}
+.gray {
+    color: var(--gray-color);
+}
+.black {
+    color: var(--black-color);
+}
